@@ -1,10 +1,40 @@
 .mainDiv{
     display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center {
+    text-align: center;
     align-items: center;
 }
+
+.userDiv{
+    margin: 10px;
+    width: 220px;
+    }
+
+.name{
+    margin-top: 16px;
+}    
 
 .photo {
     width:100px;
     height:100px;
     border-radius:50px;
 }
+
+.lgBlue{
+    color:lightskyblue;
+}
+
+.show{
+    color:blue;
+    }
+
+.show:hover{
+    cursor: pointer;
+    }
